@@ -1,0 +1,125 @@
+/* 縦方向の中央寄せ */
+.middle{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: ivory;
+    font-family: "メイリオ", sans-serif;
+}
+
+
+
+
+
+/*-------------------- フレーム、行 --------------------*/
+
+/* フレーム */
+#frame{
+    text-align: center;
+}
+
+/* メッセージ表示行 */
+#game_message_line{
+    margin: 30px;
+}
+
+/* メイン行 */
+#main_line{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*-------------------- 盤面 --------------------*/
+
+/* 盤 */
+#board{
+    background-image: url(./img/background_for_mark.jpg); 
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    min-width: 650px;
+    font-size: 0;
+}
+
+/* マス */
+.square{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* マス上の画像 */
+.square_img{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+/* 置けるマスを表示するCSS */
+.cover img{
+    animation: flash 1.5s linear infinite;
+}
+@keyframes flash {
+    0%,100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}
+
+
+
+
+
+/*-------------------- 手札 --------------------*/
+
+/* プレイヤー名 */
+.player_name{
+    overflow-wrap: break-word;
+}
+
+/* 自分の手札 */
+#my_hand{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 150px;
+}
+
+/* 相手の手札 */
+#other_player_hand{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 150px;
+}
+
+/* 手札の残数 */
+.hand_num{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+/* 手札用画像 */
+.hand_img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
