@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketRelay", "SocketRelay\SocketRelay.csproj", "{2B0662E8-4498-48DB-B8D2-BA5A865AEA46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0662E8-4498-48DB-B8D2-BA5A865AEA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0662E8-4498-48DB-B8D2-BA5A865AEA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0662E8-4498-48DB-B8D2-BA5A865AEA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0662E8-4498-48DB-B8D2-BA5A865AEA46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D581A663-608E-43D4-9FC8-E1FA2869AC4E}
+	EndGlobalSection
+EndGlobal
